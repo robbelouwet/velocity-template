@@ -1,0 +1,23 @@
+bind = "0.0.0.0:25565"
+online-mode = true
+
+#Should the proxy enforce the new public key security standard? By default, this is on.
+config-version = "2.6"
+player-info-forwarding-mode = "modern"
+
+# What should be the MOTD? This gets displayed when the player adds your server to
+# their server list. Only MiniMessage format is accepted.
+failover-on-unexpected-server-disconnect = true
+motd = "\\<#09add3>A Velocity Server"
+tcp-fast-open = true
+
+[servers]
+paper1 = "{{ PAPER1_HOST }}"
+paper2 = "{{ PAPER2_HOST }}"
+
+try = [
+  "paper1",
+  "paper2",
+]
+
+[forced-hosts]
