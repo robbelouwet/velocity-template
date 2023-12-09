@@ -9,7 +9,6 @@ player-info-forwarding-mode = "modern"
 # their server list. Only MiniMessage format is accepted.
 failover-on-unexpected-server-disconnect = true
 motd = "\\<#09add3>A Velocity Server"
-tcp-fast-open = true
 
 [servers]
 paper1 = "{{ PAPER1_HOST }}"
