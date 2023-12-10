@@ -5,6 +5,8 @@ online-mode = true
 config-version = "2.6"
 player-info-forwarding-mode = "modern"
 
+prevent-client-proxy-connections = false
+
 # What should be the MOTD? This gets displayed when the player adds your server to
 # their server list. Only MiniMessage format is accepted.
 failover-on-unexpected-server-disconnect = true
